@@ -54,25 +54,32 @@ animation:twinkle 3s infinite;
 /* LUNA */
 
 .moon{
-position:absolute;
-top:60px;
-right:10%;
-width:220px;
-height:220px;
+position:fixed;
+top:40px;
+right:4%;
+
+width:280px;
+height:280px;
+
 border-radius:50%;
 
 background:
 radial-gradient(
-circle,
-#fffef8 0%,
-#fff5d8 50%,
-#d9d2bf 100%
+circle at 35% 35%,
+#ffffff 0%,
+#edf5ff 35%,
+#d9ebff 70%,
+#bdd8f7 100%
 );
 
 box-shadow:
-0 0 30px white,
-0 0 80px rgba(255,255,255,.8),
-0 0 120px rgba(255,255,255,.4);
+0 0 40px rgba(255,255,255,.9),
+0 0 90px rgba(180,220,255,.8),
+0 0 160px rgba(140,200,255,.4);
+
+opacity:.95;
+
+z-index:-5;
 }
 
 /* BRISA */
