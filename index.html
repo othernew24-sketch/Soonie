@@ -295,7 +295,7 @@ transform:translateY(-8px);
 <body>
 
 <audio id="musica" loop>
-    <source src="øneheart x reidenshi - snowfall.mp3" type="audio/mpeg">
+    <source src="Snowfall.mp3" type="audio/mpeg">
 </audio>
 
 <div class="stars"></div>
@@ -391,10 +391,12 @@ Porque no importa cuánto tiempo pase, siempre seguirás siendo mi persona favor
 <div class="ocean"></div>
 
 <script>
-
+  
 function startGame(){
 document.getElementById("home").style.display="none";
 document.getElementById("content").style.display="block";
+
+document.getElementById("musica").play();
 }
 
 function showLetter(){
